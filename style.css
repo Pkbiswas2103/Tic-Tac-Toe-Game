@@ -9,6 +9,8 @@
 body{
     font-family: 'Rocher';
     background: url("tic_background.webp");
+    background-position: center;
+    background-repeat: no-repeat;
     text-align: center;
 }
 .container{
@@ -34,7 +36,7 @@ body{
     border: 1px solid white;
     background-color: rgb(50, 93, 95);
     font-family: "exo", sans-serif;
-    font-size: 100px;
+    font-size: 48px;
     color: rgba(240, 156, 47, 0.86);
 }
 #reset-btn{
