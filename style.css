@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'Rocher';
+    src: url(https://assets.codepen.io/9632/RocherColorGX.woff2);
+  }
+body{
+    font-family: 'Rocher';
+    background: url("tic_background.webp");
+    text-align: center;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1vmin;
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: 1px solid white;
+    background-color: rgb(50, 93, 95);
+    font-family: "exo", sans-serif;
+    font-size: 100px;
+    color: rgba(240, 156, 47, 0.86);
+}
+#reset-btn{
+    padding: 10px;
+    font-family: cursive, sans-serif;
+    font-size: 10px;
+    background-color: rgba(21, 53, 54, 0.97);
+    border-radius: 15px;
+    font-size: 15px;
+    border:2px solid rgba(141, 235, 252, 0.74);
+    color: rgb(243, 247, 248);
+}
+#new-btn{
+    padding: 10px;
+    font-family: cursive, sans-serif;
+    color: white;
+    font-size: 10px;
+    background-color: rgba(21, 53, 54, 0.97);
+    border-radius: 15px;
+    font-size: 15px;
+    border: 2px solid white; 
+}
+#msg{
+    font-size: 30px;
+    color: rgb(89, 86, 83);
+
+}
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+
+}
+.hide{
+    display: none;
+}
+.Heading{
+    padding-top: 30px;
+    font-size: 50px;
+
+}
+#developer{
+    padding-top: 10px;
+    font-family: sans-serif;
+    font-size: 8px;
+    color: rgba(3, 5, 7, 0.34);
+}
